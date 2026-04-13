@@ -1,141 +1,172 @@
 # Smoky Mountain AT Traverse: Southbound
 
 **Davenport Gap to Fontana Dam** | May 18--26, 2026
-~72 miles | 8 hiking days / 7 nights | ~17,000--20,000 ft cumulative elevation gain
+~71.6 miles | 8 hiking days + arrival day | ~17,000--20,000 ft cumulative elevation gain
 
 ---
 
 ## Itinerary Overview
 
-| Day | Date | Segment | Miles | Gain | Loss | Shelter Elevation |
-|-----|------|---------|-------|------|------|-------------------|
-| 0 | May 17 | Arrive / camp near Davenport Gap | -- | -- | -- | ~2,000 ft |
-| 1 | May 18 | Davenport Gap to Cosby Knob Shelter | 7--8 | ~3,000 | ~400 | ~4,700 ft |
-| 2 | May 19 | Cosby Knob to Tricorner Knob Shelter | 9--10 | ~2,350 | ~1,100 | ~5,920 ft |
-| 3 | May 20 | Tricorner Knob to Mt. Collins Shelter | 10--11 | ~2,200 | ~2,150 | ~5,900 ft |
-| 4 | May 21 | Mt. Collins to Derrick Knob Shelter | 11--12 | ~2,750 | ~3,750 | ~4,800 ft |
-| 5 | May 22 | Derrick Knob to Spence Field Shelter | 10--11 | ~3,000 | ~2,650 | ~4,900 ft |
-| 6 | May 23 | Spence Field to Mollies Ridge Shelter | 9--10 | ~2,200 | ~2,500 | ~4,570 ft |
-| 7 | May 24 | Mollies Ridge to Birch Spring Gap | 10 | ~2,000 | ~2,800 | ~3,700 ft |
-| 8 | May 25--26 | Birch Spring Gap to Fontana Dam | 8--10 | ~1,250 | ~3,000 | ~1,800 ft |
+| Day | Date | Segment | Miles | Shelter Elevation |
+|-----|------|---------|-------|-------------------|
+| 0 | Mon, May 18 | Arrive, drop cars, hike to Davenport Gap Shelter | 0.9 | ~2,600 ft |
+| 1 | Tue, May 19 | Davenport Gap Shelter to Cosby Knob Shelter | 7.1 | ~4,700 ft |
+| 2 | Wed, May 20 | Cosby Knob to Tricorner Knob Shelter | 7.7 | ~5,920 ft |
+| 3 | Thu, May 21 | Tricorner Knob to Pecks Corner Shelter | 5.2 | ~5,280 ft |
+| 4 | Fri, May 22 | Pecks Corner to Icewater Spring Shelter | 7.4 | ~5,920 ft |
+| 5 | Sat, May 23 | Icewater Spring to Double Spring Gap Shelter | 13.8 | ~5,505 ft |
+| 6 | Sun, May 24 | Double Spring Gap to Derrick Knob Shelter | 7.2 | ~4,880 ft |
+| 7 | Mon, May 25 | Derrick Knob to Mollies Ridge Shelter | 11.7 | ~4,570 ft |
+| 8 | Tue, May 26 | Mollies Ridge to Fontana Dam | 10.6 | ~1,750 ft |
+
+---
+
+## Shelter-to-Shelter Distances
+
+Full distance reference for the southbound route:
+
+| Shelter | Cumulative Miles | Segment Miles | Elevation |
+|---------|-----------------|---------------|-----------|
+| Davenport Gap (trailhead) | 0.0 | -- | ~1,975 ft |
+| Davenport Gap Shelter | 0.9 | 0.9 | ~2,600 ft |
+| Cosby Knob Shelter | 8.0 | 7.1 | ~4,700 ft |
+| Tricorner Knob Shelter | 15.7 | 7.7 | ~5,920 ft |
+| Pecks Corner Shelter | 20.9 | 5.2 | ~5,280 ft |
+| Icewater Spring Shelter | 28.3 | 7.4 | ~5,920 ft |
+| Mt. Collins Shelter | 35.8 | 7.5 | ~5,870 ft |
+| Double Spring Gap Shelter | 42.1 | 6.3 | ~5,505 ft |
+| Silers Bald Shelter | 43.8 | 1.7 | ~5,460 ft |
+| Derrick Knob Shelter | 49.3 | 5.5 | ~4,880 ft |
+| Spence Field Shelter | 55.6 | 6.3 | ~4,915 ft |
+| Russell Field Shelter | 58.5 | 2.9 | ~4,360 ft |
+| Mollies Ridge Shelter | 61.0 | 2.5 | ~4,570 ft |
+| Fontana Dam | 71.6 | 10.6 | ~1,750 ft |
+
+**Note:** Mt. Collins Shelter is 0.5 mi off the AT (1.0 mi round trip). Spence Field Shelter is 0.2 mi off the AT (0.4 mi round trip). Pecks Corner Shelter is 0.5 mi off the AT (1.0 mi round trip). Birch Spring Gap Shelter has been demolished; it is now Backcountry Campsite #113 (tent-only).
 
 ---
 
 ## Day-by-Day Details
 
-### Night 0: May 17 -- Arrival
+### Day 0: Monday, May 18 -- Arrival & Shuttle Setup
 
-Arrive and camp or stay near **Davenport Gap / Big Creek area** (not yet inside the park). Drop one car at **Fontana Dam** the day before, or arrange a self-shuttle.
+**0.9 miles** | Trailhead (~1,975 ft) to Davenport Gap Shelter (~2,600 ft)
 
----
+Arrive at the Davenport Gap / Big Creek area. Drop one car at **Fontana Dam** for the pickup. Drive to the northeast trailhead at Davenport Gap (TN 32 / NC 284). Short afternoon hike of 0.9 miles to the shelter to get settled.
 
-### Day 1: May 18 -- Davenport Gap to Cosby Knob Shelter
-
-**~7--8 miles** | Start: ~2,000 ft | End: ~4,700 ft
-
-- **Elevation gain:** ~2,800--3,000 ft
-- **Elevation loss:** ~300--500 ft
-- **Net change:** Significant climb overall
-
-Short, manageable first day with a solid climb. Allows time to settle into the rhythm and enjoy the initial forest. Steady initial climb through forest; lower elevations feel milder in May. Water usually available near shelter.
-
-**Shelter:** Cosby Knob Shelter (sleeps 12, often has a privy nearby)
+**Shelter:** Davenport Gap Shelter (sleeps 12, spring nearby, no privy)
 
 ---
 
-### Day 2: May 19 -- Cosby Knob Shelter to Tricorner Knob Shelter
+### Day 1: Tuesday, May 19 -- Davenport Gap Shelter to Cosby Knob Shelter
 
-**~9--10 miles** | Start: ~4,740 ft | End: ~5,920 ft
+**7.1 miles** | Start: ~2,600 ft | End: ~4,700 ft
+
+- **Elevation gain:** ~2,700 ft
+- **Elevation loss:** ~600 ft
+- **Net change:** Significant climb
+
+Solid first full day with a steady climb through forest. Passes near **Mt. Cammerer** side trail (optional 0.6-mile spur to the historic fire tower at ~5,000 ft with great views). Lower elevations feel milder in May. Water available near shelter.
+
+**Shelter:** Cosby Knob Shelter (sleeps 12, spring nearby, ~150 ft off the AT)
+
+---
+
+### Day 2: Wednesday, May 20 -- Cosby Knob to Tricorner Knob Shelter
+
+**7.7 miles** | Start: ~4,700 ft | End: ~5,920 ft
 
 - **Elevation gain:** ~2,200--2,500 ft
 - **Elevation loss:** ~1,000--1,200 ft
 - **Net change:** Moderate net gain
 
-Continues through high-elevation spruce-fir forest. Passes near **Mt. Cammerer** side trail (optional steep climb to fire tower). Some of the most remote and beautiful ridgeline walking in the northern Smokies. Potential for cooler temps and wind.
+High-elevation spruce-fir forest. Some of the most remote and beautiful ridgeline walking in the northern Smokies. Potential for cooler temps and wind at elevation.
 
-**Shelter:** Tricorner Knob Shelter
-
----
-
-### Day 3: May 20 -- Tricorner Knob Shelter to Mt. Collins Shelter
-
-**~10--11 miles** | Start: ~5,920 ft | End: ~5,900 ft
-
-- **Elevation gain:** ~2,000--2,400 ft
-- **Elevation loss:** ~2,000--2,300 ft
-- **Net change:** Near neutral (lots of rolling)
-
-Passes near Pecks Corner area and approaches the Newfound Gap zone. Expect more foot traffic near roads. This section stays mostly above 5,000--6,000 ft. Water sources generally reliable.
-
-**Shelter:** Mt. Collins Shelter (popular due to proximity to Newfound Gap)
+**Shelter:** Tricorner Knob Shelter (~100 yards off trail)
 
 ---
 
-### Day 4: May 21 -- Mt. Collins Shelter to Derrick Knob Shelter
+### Day 3: Thursday, May 21 -- Tricorner Knob to Pecks Corner Shelter
 
-**~11--12 miles** | Start: ~5,870 ft | End: ~4,800 ft
+**5.2 miles** | Start: ~5,920 ft | End: ~5,280 ft
 
-- **Elevation gain:** ~2,500--3,000 ft (including climb to high point)
-- **Elevation loss:** ~3,500--4,000 ft
-- **Net change:** Net loss, but big effort
+- **Elevation gain:** ~600--800 ft
+- **Elevation loss:** ~1,200--1,400 ft
+- **Net change:** Net descent
 
-**Highlight day.** Side trail to **Kuwohi (Clingmans Dome)** at **6,643 ft** -- the highest point on the entire Appalachian Trail (~0.5 mile round-trip for the tower/view). Significant rollercoaster with steep descents after the high point. Expect possible wind/rain at elevation. One of the tougher days elevation-wise.
+Intentionally short rest day before bigger miles ahead. Enjoy the remote ridgeline and recharge. Pecks Corner is a quieter shelter in a nice setting.
+
+**Shelter:** Pecks Corner Shelter (0.5 mi off the AT on Hughes Ridge Trail)
+
+---
+
+### Day 4: Friday, May 22 -- Pecks Corner to Icewater Spring Shelter
+
+**7.4 miles** | Start: ~5,280 ft | End: ~5,920 ft
+
+- **Elevation gain:** ~1,800--2,000 ft
+- **Elevation loss:** ~1,200--1,400 ft
+- **Net change:** Moderate net gain
+
+Approaches the Newfound Gap area. Expect more foot traffic near the road crossing. Crosses high ridges with occasional views. This section stays mostly above 5,000--6,000 ft.
+
+**Shelter:** Icewater Spring Shelter
+
+**Important note:** Icewater Spring is restricted to long-distance hikers only from March 15 -- June 15. A 72-mile traverse likely qualifies, but confirm with the Backcountry Office (865-436-1297) when booking.
+
+---
+
+### Day 5: Saturday, May 23 -- Icewater Spring to Double Spring Gap Shelter
+
+**13.8 miles** | Start: ~5,920 ft | End: ~5,505 ft
+
+- **Elevation gain:** ~3,000--3,500 ft
+- **Elevation loss:** ~3,400--3,900 ft
+- **Net change:** Slight net loss, but big effort
+
+**The big day.** Passes Mt. Collins Shelter (0.5 mi off trail; no need to detour) and includes the side trail to **Kuwohi (Clingmans Dome)** at **6,643 ft** -- the highest point on the entire Appalachian Trail (~0.5 mile round-trip for the tower and panoramic views). Significant rollercoaster with steep climbs and descents. Crosses Newfound Gap road access area early in the day.
+
+**Shelter:** Double Spring Gap Shelter
+
+---
+
+### Day 6: Sunday, May 24 -- Double Spring Gap to Derrick Knob Shelter
+
+**7.2 miles** | Start: ~5,505 ft | End: ~4,880 ft
+
+- **Elevation gain:** ~800--1,000 ft
+- **Elevation loss:** ~1,400--1,600 ft
+- **Net change:** Net descent
+
+Recovery day after the big Day 5 push. Passes Silers Bald Shelter (1.7 mi in) and continues with a descending trend. Easier terrain with some rolling sections.
 
 **Shelter:** Derrick Knob Shelter
 
 ---
 
-### Day 5: May 22 -- Derrick Knob Shelter to Spence Field Shelter
+### Day 7: Monday, May 25 -- Derrick Knob to Mollies Ridge Shelter
 
-**~10--11 miles** | Start: ~4,770 ft | End: ~4,900 ft
+**11.7 miles** | Start: ~4,880 ft | End: ~4,570 ft
 
 - **Elevation gain:** ~2,800--3,200 ft
-- **Elevation loss:** ~2,500--2,800 ft
-- **Net change:** Slight net gain or neutral
-
-Beautiful open balds and meadows -- great for May wildflowers. **Thunderhead Mountain** and **Rocky Top** nearby (iconic views). Grassy areas make for nice breaks. Shelters here are popular; have backup options when booking.
-
-**Shelter options:** Spence Field Shelter or Russell Field Shelter (both good stops; Spence often preferred for views)
-
----
-
-### Day 6: May 23 -- Spence Field to Mollies Ridge Shelter
-
-**~9--10 miles** | Start: ~4,800 ft | End: ~4,570 ft
-
-- **Elevation gain:** ~2,000--2,400 ft
-- **Elevation loss:** ~2,300--2,700 ft
+- **Elevation loss:** ~3,000--3,400 ft
 - **Net change:** Slight net loss
 
-Transition toward the western Smokies. Some easier stretches mixed with steep rolls. Descending trend begins as you head toward lower elevations near Fontana. Nice transition day.
+Passes through the beautiful bald and meadow country. **Thunderhead Mountain** and **Rocky Top** nearby with iconic views. Great for May wildflowers. Passes Spence Field Shelter (6.3 mi) and Russell Field Shelter (9.2 mi) before reaching Mollies Ridge.
 
 **Shelter:** Mollies Ridge Shelter
 
 ---
 
-### Day 7: May 24 -- Mollies Ridge Shelter to Birch Spring Gap
+### Day 8: Tuesday, May 26 -- Mollies Ridge to Fontana Dam
 
-**~10 miles** | Start: ~4,570 ft | End: ~3,700 ft
+**10.6 miles** | Start: ~4,570 ft | End: ~1,750 ft
 
-- **Elevation gain:** ~1,800--2,200 ft
-- **Elevation loss:** ~2,600--3,000 ft
-- **Net change:** Net loss
-
-More descending overall. Passes Doe Knob and other gaps. Water at Birch Spring Gap. Final big push through forested sections before the dam area.
-
-**Shelter / site:** Birch Spring Gap campsite or nearby shelter
-
----
-
-### Day 8: May 25--26 -- Final Push to Fontana Dam
-
-**~8--10 miles** | Start: ~3,680 ft | End: ~1,800 ft
-
-- **Elevation gain:** ~1,000--1,500 ft (smaller rolls)
-- **Elevation loss:** ~2,800--3,200 ft
+- **Elevation gain:** ~600--800 ft
+- **Elevation loss:** ~3,400--3,600 ft
 - **Net change:** Major net descent
 
-Steep final drop to the dam ("Fontana Hilton" just outside park boundary). Finish early enough to retrieve your car. Celebrate the traverse!
+Mostly downhill with a few smaller rolls. Passes Doe Knob and Shuckstack Mountain (fire tower with views, short detour). Final steep descent to Fontana Dam ("Fontana Hilton" just outside the park). Experienced hikers report 4--6 hours southbound. Start by 8 AM to arrive early afternoon and retrieve your car.
 
 ---
 
@@ -143,11 +174,13 @@ Steep final drop to the dam ("Fontana Hilton" just outside park boundary). Finis
 
 | Metric | Value |
 |--------|-------|
-| Total distance | ~72 miles |
-| Cumulative elevation gain | 17,000--20,000+ ft |
+| Total distance | ~71.6 miles |
+| Hiking days | 8 (+ arrival day) |
+| Cumulative elevation gain | ~17,000--20,000 ft |
 | Cumulative elevation loss | Roughly equal to gain |
-| Highest point | Kuwohi / Clingmans Dome (6,643 ft) -- Day 4 |
-| Lowest point | Fontana Dam (~1,800 ft) -- Finish |
+| Highest point | Kuwohi / Clingmans Dome (6,643 ft) -- Day 5 |
+| Lowest point | Fontana Dam (~1,750 ft) -- Day 8 |
+| Average daily miles | ~8.9 (range: 5.2 to 13.8) |
 | Average vertical per mile | ~250--280 ft (the "Smoky Mountain Roll") |
 
 ---
@@ -179,6 +212,7 @@ All overnight stays require advance reservations via a **General Backcountry Per
 - Maximum party size: 8 (without special approval)
 - General permit holders have priority over thru-hikers for reserved bunks
 - No tenting at shelters for general permit holders
+- Icewater Spring restricted to long-distance hikers Mar 15 -- Jun 15 (confirm eligibility when booking)
 
 **Booking:**
 - **Before April 29, 2026:** [smokiespermits.nps.gov](https://smokiespermits.nps.gov/)
@@ -188,31 +222,28 @@ All overnight stays require advance reservations via a **General Backcountry Per
 
 ### Shelters on the Route
 
-| Shelter | Miles In | Elevation | Notes |
-|---------|----------|-----------|-------|
-| Cosby Knob | ~7--8 | ~4,700 ft | Quieter, good first night |
-| Tricorner Knob | ~16--18 | ~5,900 ft | High-elevation, remote |
-| Mt. Collins | ~26--28 | ~5,900 ft | Popular (near Newfound Gap) |
-| Derrick Knob | ~37--39 | ~4,800 ft | Near Clingmans Dome; high demand |
-| Spence Field | ~47--50 | ~4,900 ft | Beautiful balds; very popular |
-| Russell Field | ~47--50 | ~4,600 ft | Close alternate to Spence Field |
-| Mollies Ridge | ~57--59 | ~4,570 ft | Western side transition |
-| Birch Spring Gap | Near end | ~3,700 ft | Final night option |
+Most shelters have:
+- Bear cables for food storage (mandatory -- hang all odorous items)
+- Nearby water sources (treat/filter all water)
+- Composting toilet privies
+- Fire rings (downed wood only)
 
-**Alternate shelters:** Double Spring Gap, Siler's Bald, Pecks Corner
-
-**Shelter amenities:** Bear cables (mandatory food hang), nearby water sources (treat/filter), privies (composting toilets), fire rings (downed wood only).
+**Notes on specific shelters:**
+- **Pecks Corner** and **Mt. Collins** are each 0.5 mi off the AT (1.0 mi round trip)
+- **Spence Field** is 0.2 mi off the AT (0.4 mi round trip)
+- **Birch Spring Gap** shelter has been demolished; it is now tent-only Campsite #113
+- **Double Spring Gap** and **Silers Bald** are only 1.7 mi apart
 
 ---
 
 ## Tips for the Group
 
-- **Pacing:** Days 4 and 5 are the most strenuous due to high elevation and big vertical.
+- **Pacing:** Day 5 (13.8 mi with Clingmans Dome) and Day 7 (11.7 mi through the balds) are the most demanding. Day 3 is intentionally short to recharge before the bigger second half.
 - **May weather:** Expect mud, possible lingering snow/ice above 5,000 ft early in the trip, and afternoon thunderstorms. Start early on bigger days.
 - **Water:** Most shelters have springs nearby, but always treat/filter. May is generally wetter, but dry stretches can occur.
 - **Permits:** Print your paper permit with all shelter reservations listed. No changes after booking without calling the office.
 - **Bears:** Bear activity is common -- properly store food every night using bear cables.
-- **Parking:** First-come, first-served -- a tag does not reserve a spot. Arrive early.
+- **Parking:** First-come, first-served -- a tag does not reserve a spot. Arrive early on May 18.
 
 ---
 

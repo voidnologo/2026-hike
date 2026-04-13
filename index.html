@@ -47,7 +47,6 @@
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     html { scroll-behavior: smooth; }
 
     body {
@@ -68,14 +67,7 @@
       align-items: center;
       text-align: center;
       padding: 2rem;
-      background: linear-gradient(
-        175deg,
-        #1a3a2a 0%,
-        #2d5a3e 30%,
-        #3d7a4a 50%,
-        #5a9e68 70%,
-        #7ec488 100%
-      );
+      background: linear-gradient(175deg, #1a3a2a 0%, #2d5a3e 30%, #3d7a4a 50%, #5a9e68 70%, #7ec488 100%);
       overflow: hidden;
     }
 
@@ -90,17 +82,8 @@
       background-size: cover;
     }
 
-    .hero-content {
-      position: relative;
-      z-index: 1;
-      max-width: 700px;
-    }
-
-    .hero-icon {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-      opacity: 0.9;
-    }
+    .hero-content { position: relative; z-index: 1; max-width: 700px; }
+    .hero-icon { font-size: 3rem; margin-bottom: 1rem; opacity: 0.9; }
 
     .hero h1 {
       font-family: var(--font-heading);
@@ -125,10 +108,7 @@
       flex-wrap: wrap;
     }
 
-    .hero .stat {
-      text-align: center;
-      color: rgba(255,255,255,0.9);
-    }
+    .hero .stat { text-align: center; color: rgba(255,255,255,0.9); }
 
     .hero .stat-value {
       display: block;
@@ -160,10 +140,7 @@
       animation: bounce 2s infinite;
     }
 
-    .scroll-hint svg {
-      width: 32px;
-      height: 32px;
-    }
+    .scroll-hint svg { width: 32px; height: 32px; }
 
     @keyframes bounce {
       0%, 100% { transform: translateY(0); }
@@ -171,19 +148,9 @@
     }
 
     /* Layout */
-    .container {
-      max-width: 860px;
-      margin: 0 auto;
-      padding: 0 1.5rem;
-    }
-
-    section {
-      padding: 3.5rem 0;
-    }
-
-    section + section {
-      border-top: 1px solid var(--color-border);
-    }
+    .container { max-width: 860px; margin: 0 auto; padding: 0 1.5rem; }
+    section { padding: 3.5rem 0; }
+    section + section { border-top: 1px solid var(--color-border); }
 
     /* Navigation */
     .toc {
@@ -192,7 +159,6 @@
       z-index: 100;
       background: var(--color-bg);
       border-bottom: 1px solid var(--color-border);
-      padding: 0;
     }
 
     .toc-inner {
@@ -247,7 +213,6 @@
     }
 
     p { margin-bottom: 1rem; }
-
     a { color: var(--color-link); }
     a:hover { text-decoration: underline; }
 
@@ -262,13 +227,9 @@
       transition: box-shadow 0.2s;
     }
 
-    .day-card:hover {
-      box-shadow: 0 4px 16px var(--color-card-shadow);
-    }
-
-    .day-card.highlight-day {
-      border-left: 4px solid var(--color-peak);
-    }
+    .day-card:hover { box-shadow: 0 4px 16px var(--color-card-shadow); }
+    .day-card.highlight-day { border-left: 4px solid var(--color-peak); }
+    .day-card.rest-day { border-left: 4px solid var(--color-accent-light); }
 
     .day-header {
       display: flex;
@@ -320,20 +281,12 @@
       flex-wrap: wrap;
     }
 
-    .elev-item {
-      display: flex;
-      align-items: center;
-      gap: 0.35rem;
-    }
-
+    .elev-item { display: flex; align-items: center; gap: 0.35rem; }
     .elev-up { color: var(--color-gain); font-weight: 600; }
     .elev-down { color: var(--color-loss); font-weight: 600; }
     .elev-range { color: var(--color-text-muted); }
 
-    .day-body p {
-      margin-bottom: 0.75rem;
-      color: var(--color-text);
-    }
+    .day-body p { margin-bottom: 0.75rem; color: var(--color-text); }
 
     .shelter-tag {
       display: inline-block;
@@ -359,16 +312,33 @@
       margin-bottom: 0.75rem;
     }
 
-    /* Elevation Profile */
-    .profile-chart {
-      width: 100%;
-      margin: 1.5rem 0;
+    .rest-badge {
+      display: inline-block;
+      font-family: var(--font-heading);
+      font-size: 0.78rem;
+      font-weight: 700;
+      background: var(--color-accent);
+      color: #fff;
+      padding: 0.25rem 0.7rem;
+      border-radius: 6px;
+      margin-bottom: 0.75rem;
     }
 
-    .profile-chart svg {
-      width: 100%;
-      height: auto;
+    .note-badge {
+      display: inline-block;
+      font-family: var(--font-heading);
+      font-size: 0.78rem;
+      font-weight: 700;
+      background: var(--color-peak);
+      color: #fff;
+      padding: 0.25rem 0.7rem;
+      border-radius: 6px;
+      margin-bottom: 0.75rem;
     }
+
+    /* Elevation Profile */
+    .profile-chart { width: 100%; margin: 1.5rem 0; }
+    .profile-chart svg { width: 100%; height: auto; }
 
     /* Overview Table */
     .overview-table {
@@ -396,15 +366,8 @@
       vertical-align: top;
     }
 
-    .overview-table tr:last-child td {
-      border-bottom: none;
-    }
-
-    .overview-table .day-num {
-      font-family: var(--font-heading);
-      font-weight: 700;
-      color: var(--color-accent);
-    }
+    .overview-table tr:last-child td { border-bottom: none; }
+    .overview-table .day-num { font-family: var(--font-heading); font-weight: 700; color: var(--color-accent); }
 
     /* Info Cards */
     .info-grid {
@@ -421,21 +384,9 @@
       padding: 1.25rem;
     }
 
-    .info-card h3 {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .info-card ul {
-      margin: 0;
-      padding-left: 1.25rem;
-    }
-
-    .info-card li {
-      margin-bottom: 0.4rem;
-    }
+    .info-card h3 { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.75rem; }
+    .info-card ul { margin: 0; padding-left: 1.25rem; }
+    .info-card li { margin-bottom: 0.4rem; }
 
     /* Shelter Table */
     .shelter-table {
@@ -462,6 +413,8 @@
       border-bottom: 1px solid var(--color-border);
       vertical-align: top;
     }
+
+    .shelter-table tr.on-route td { background: var(--color-highlight); }
 
     /* Logistics */
     .cost-table {
@@ -497,24 +450,12 @@
       margin: 1.25rem 0;
     }
 
-    .callout-warn {
-      border-left-color: var(--color-peak);
-    }
-
+    .callout-warn { border-left-color: var(--color-peak); }
     .callout p { margin-bottom: 0.5rem; }
     .callout p:last-child { margin-bottom: 0; }
 
-    .link-list {
-      list-style: none;
-      padding: 0;
-      margin: 1rem 0;
-    }
-
-    .link-list li {
-      padding: 0.5rem 0;
-      border-bottom: 1px solid var(--color-border);
-    }
-
+    .link-list { list-style: none; padding: 0; margin: 1rem 0; }
+    .link-list li { padding: 0.5rem 0; border-bottom: 1px solid var(--color-border); }
     .link-list li:last-child { border-bottom: none; }
 
     /* Footer */
@@ -550,11 +491,11 @@
     <p class="subtitle" style="font-size: 1.05rem; opacity: 0.7;">May 18 &ndash; 26, 2026</p>
     <div class="stats-row">
       <div class="stat">
-        <span class="stat-value">~72</span>
+        <span class="stat-value">~71.6</span>
         <span class="stat-label">Miles</span>
       </div>
       <div class="stat">
-        <span class="stat-value">8</span>
+        <span class="stat-value">8+1</span>
         <span class="stat-label">Days</span>
       </div>
       <div class="stat">
@@ -594,7 +535,7 @@
 
     <!-- Elevation Profile SVG -->
     <div class="profile-chart">
-      <svg viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Elevation profile showing the trail from Davenport Gap at 2000 feet climbing to over 6000 feet at Clingmans Dome then descending to Fontana Dam at 1800 feet">
+      <svg viewBox="0 0 800 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Elevation profile showing the trail from Davenport Gap at 1975 feet climbing through the high ridgeline to Clingmans Dome at 6643 feet, then descending to Fontana Dam at 1750 feet">
         <defs>
           <linearGradient id="elev-fill" x1="0" y1="0" x2="0" y2="1">
             <stop offset="0%" stop-color="var(--color-accent)" stop-opacity="0.3"/>
@@ -613,31 +554,64 @@
         <text x="55" y="94" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" fill="var(--color-text-muted)">5,000'</text>
         <text x="55" y="129" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" fill="var(--color-text-muted)">4,000'</text>
         <text x="55" y="164" text-anchor="end" font-family="system-ui, sans-serif" font-size="10" fill="var(--color-text-muted)">3,000'</text>
-        <!-- Elevation profile path: Davenport(2000) -> Cosby(4700) -> Tricorner(5920) -> Collins(5900) -> Clingmans(6643) -> Derrick(4800) -> Spence(4900) -> Mollies(4570) -> Birch(3700) -> Fontana(1800) -->
-        <!-- Scale: y = 180 - ((elev - 1500) / 5500) * 160 ; x spread across 60 to 780 -->
-        <path d="M60,166 C100,166 110,130 140,112 C160,100 175,88 200,78 S240,68 260,63 C275,58 285,42 310,22 C325,32 335,55 360,75 C375,70 395,68 420,72 C445,78 460,82 480,85 C505,92 530,100 560,110 C580,120 600,128 630,138 C660,148 700,155 730,160 L780,167"
+        <!--
+          Elevation profile data points (x proportional to mileage, y to elevation):
+          Scale: x = 60 + (mile / 71.6) * 720;  y = 180 - ((elev - 1500) / 5500) * 160
+          Davenport Gap (0 mi, 1975'): 60, 166
+          DG Shelter (0.9, 2600'): 69, 148
+          Cosby Knob (8.0, 4700'): 140, 87
+          Tricorner Knob (15.7, 5920'): 218, 51
+          Pecks Corner (20.9, 5280'): 270, 70
+          Icewater Spring (28.3, 5920'): 345, 51
+          Clingmans Dome (~37, 6643'): 432, 30
+          Mt Collins (35.8, 5870'): 420, 53
+          Double Spring Gap (42.1, 5505'): 483, 64
+          Silers Bald (43.8, 5460'): 500, 65
+          Derrick Knob (49.3, 4880'): 556, 82
+          Spence Field (55.6, 4915'): 619, 81
+          Russell Field (58.5, 4360'): 648, 97
+          Mollies Ridge (61.0, 4570'): 674, 91
+          Fontana Dam (71.6, 1750'): 780, 173
+        -->
+        <!-- Fill -->
+        <path d="M60,166 L69,148 C95,120 120,95 140,87 C165,72 195,55 218,51 C235,58 255,68 270,70 C290,63 320,54 345,51 C370,48 400,40 432,30 C450,45 470,58 483,64 L500,65 C520,70 540,78 556,82 C580,80 600,80 619,81 C632,87 642,95 648,97 C658,94 668,92 674,91 C700,110 740,145 760,162 L780,173 L780,180 L60,180 Z"
               fill="url(#elev-fill)" stroke="none"/>
-        <path d="M60,166 C100,166 110,130 140,112 C160,100 175,88 200,78 S240,68 260,63 C275,58 285,42 310,22 C325,32 335,55 360,75 C375,70 395,68 420,72 C445,78 460,82 480,85 C505,92 530,100 560,110 C580,120 600,128 630,138 C660,148 700,155 730,160 L780,167"
-              fill="none" stroke="var(--color-accent)" stroke-width="2.5" stroke-linecap="round"/>
+        <!-- Line -->
+        <path d="M60,166 L69,148 C95,120 120,95 140,87 C165,72 195,55 218,51 C235,58 255,68 270,70 C290,63 320,54 345,51 C370,48 400,40 432,30 C450,45 470,58 483,64 L500,65 C520,70 540,78 556,82 C580,80 600,80 619,81 C632,87 642,95 648,97 C658,94 668,92 674,91 C700,110 740,145 760,162 L780,173"
+              fill="none" stroke="var(--color-accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
         <!-- Key points -->
         <circle cx="60" cy="166" r="4" fill="var(--color-accent)"/>
-        <circle cx="140" cy="112" r="3.5" fill="var(--color-accent)"/>
-        <circle cx="260" cy="63" r="3.5" fill="var(--color-accent)"/>
-        <circle cx="310" cy="22" r="5" fill="var(--color-peak)"/>
-        <circle cx="420" cy="72" r="3.5" fill="var(--color-accent)"/>
-        <circle cx="480" cy="85" r="3.5" fill="var(--color-accent)"/>
-        <circle cx="560" cy="110" r="3.5" fill="var(--color-accent)"/>
-        <circle cx="780" cy="167" r="4" fill="var(--color-accent)"/>
+        <circle cx="140" cy="87" r="3" fill="var(--color-accent)"/>
+        <circle cx="218" cy="51" r="3" fill="var(--color-accent)"/>
+        <circle cx="270" cy="70" r="3" fill="var(--color-accent)"/>
+        <circle cx="345" cy="51" r="3" fill="var(--color-accent)"/>
+        <circle cx="432" cy="30" r="5" fill="var(--color-peak)"/>
+        <circle cx="483" cy="64" r="3" fill="var(--color-accent)"/>
+        <circle cx="556" cy="82" r="3" fill="var(--color-accent)"/>
+        <circle cx="619" cy="81" r="3" fill="var(--color-accent)"/>
+        <circle cx="674" cy="91" r="3" fill="var(--color-accent)"/>
+        <circle cx="780" cy="173" r="4" fill="var(--color-accent)"/>
         <!-- Labels -->
         <text x="60" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Davenport</text>
-        <text x="60" y="189" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="var(--color-text-muted)">2,000'</text>
-        <text x="140" y="105" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Cosby Knob</text>
-        <text x="260" y="56" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Tricorner</text>
-        <text x="310" y="14" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="var(--color-peak)">Kuwohi 6,643'</text>
-        <text x="420" y="65" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Spence Field</text>
-        <text x="560" y="103" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Mollies Ridge</text>
-        <text x="780" y="180" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Fontana Dam</text>
-        <text x="780" y="189" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="var(--color-text-muted)">1,800'</text>
+        <text x="60" y="189" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="var(--color-text-muted)">1,975'</text>
+        <text x="140" y="80" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Cosby Knob</text>
+        <text x="218" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Tricorner</text>
+        <text x="345" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Icewater Spr.</text>
+        <text x="432" y="22" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" font-weight="700" fill="var(--color-peak)">Kuwohi 6,643'</text>
+        <text x="556" y="75" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Derrick Knob</text>
+        <text x="674" y="84" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Mollies Ridge</text>
+        <text x="780" y="186" text-anchor="middle" font-family="system-ui, sans-serif" font-size="9" fill="var(--color-text-muted)">Fontana Dam</text>
+        <text x="780" y="195" text-anchor="middle" font-family="system-ui, sans-serif" font-size="8" fill="var(--color-text-muted)">1,750'</text>
+        <!-- Day markers along bottom -->
+        <text x="69" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="var(--color-accent)" font-weight="600">D0</text>
+        <text x="140" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="var(--color-accent)" font-weight="600">D1</text>
+        <text x="218" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="var(--color-accent)" font-weight="600">D2</text>
+        <text x="270" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="var(--color-accent)" font-weight="600">D3</text>
+        <text x="345" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="var(--color-accent)" font-weight="600">D4</text>
+        <text x="483" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="var(--color-accent)" font-weight="600">D5</text>
+        <text x="556" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="var(--color-accent)" font-weight="600">D6</text>
+        <text x="674" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="var(--color-accent)" font-weight="600">D7</text>
+        <text x="780" y="202" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7" fill="var(--color-accent)" font-weight="600">D8</text>
       </svg>
     </div>
 
@@ -654,66 +628,66 @@
       <tbody>
         <tr>
           <td class="day-num">0</td>
-          <td>May 17</td>
-          <td>Arrive near Davenport Gap</td>
-          <td>&mdash;</td>
-          <td>~2,000'</td>
+          <td>Mon 5/18</td>
+          <td>Arrive &rarr; Davenport Gap Shelter</td>
+          <td>0.9</td>
+          <td>2,600'</td>
         </tr>
         <tr>
           <td class="day-num">1</td>
-          <td>May 18</td>
-          <td>Davenport Gap &rarr; Cosby Knob</td>
-          <td>7&ndash;8</td>
-          <td>~4,700'</td>
+          <td>Tue 5/19</td>
+          <td>Davenport Gap Shelter &rarr; Cosby Knob</td>
+          <td>7.1</td>
+          <td>4,700'</td>
         </tr>
         <tr>
           <td class="day-num">2</td>
-          <td>May 19</td>
+          <td>Wed 5/20</td>
           <td>Cosby Knob &rarr; Tricorner Knob</td>
-          <td>9&ndash;10</td>
-          <td>~5,920'</td>
+          <td>7.7</td>
+          <td>5,920'</td>
         </tr>
         <tr>
           <td class="day-num">3</td>
-          <td>May 20</td>
-          <td>Tricorner Knob &rarr; Mt. Collins</td>
-          <td>10&ndash;11</td>
-          <td>~5,900'</td>
+          <td>Thu 5/21</td>
+          <td>Tricorner Knob &rarr; Pecks Corner</td>
+          <td>5.2</td>
+          <td>5,280'</td>
         </tr>
         <tr>
           <td class="day-num">4</td>
-          <td>May 21</td>
-          <td>Mt. Collins &rarr; Derrick Knob</td>
-          <td>11&ndash;12</td>
-          <td>~4,800'</td>
+          <td>Fri 5/22</td>
+          <td>Pecks Corner &rarr; Icewater Spring</td>
+          <td>7.4</td>
+          <td>5,920'</td>
         </tr>
         <tr>
           <td class="day-num">5</td>
-          <td>May 22</td>
-          <td>Derrick Knob &rarr; Spence Field</td>
-          <td>10&ndash;11</td>
-          <td>~4,900'</td>
+          <td>Sat 5/23</td>
+          <td>Icewater Spring &rarr; Double Spring Gap</td>
+          <td>13.8</td>
+          <td>5,505'</td>
         </tr>
         <tr>
           <td class="day-num">6</td>
-          <td>May 23</td>
-          <td>Spence Field &rarr; Mollies Ridge</td>
-          <td>9&ndash;10</td>
-          <td>~4,570'</td>
+          <td>Sun 5/24</td>
+          <td>Double Spring Gap &rarr; Derrick Knob</td>
+          <td>7.2</td>
+          <td>4,880'</td>
         </tr>
         <tr>
           <td class="day-num">7</td>
-          <td>May 24</td>
-          <td>Mollies Ridge &rarr; Birch Spring Gap</td>
-          <td>~10</td>
-          <td>~3,700'</td>
+          <td>Mon 5/25</td>
+          <td>Derrick Knob &rarr; Mollies Ridge</td>
+          <td>11.7</td>
+          <td>4,570'</td>
         </tr>
         <tr>
           <td class="day-num">8</td>
-          <td>May 25&ndash;26</td>
-          <td>Birch Spring Gap &rarr; Fontana Dam</td>
-          <td>8&ndash;10</td>
-          <td>~1,800'</td>
+          <td>Tue 5/26</td>
+          <td>Mollies Ridge &rarr; Fontana Dam</td>
+          <td>10.6</td>
+          <td>1,750'</td>
         </tr>
       </tbody>
     </table>
@@ -727,12 +701,14 @@
     <div class="day-card">
       <div class="day-header">
         <div>
-          <span class="day-label">Night 0 &middot; May 17</span>
+          <span class="day-label">Day 0 &middot; Monday, May 18</span>
           <h3 class="day-title">Arrival &amp; Shuttle Setup</h3>
         </div>
+        <span class="day-miles">0.9 mi</span>
       </div>
       <div class="day-body">
-        <p>Arrive and camp or stay near <strong>Davenport Gap / Big Creek area</strong> (not yet inside the park). Drop one car at <strong>Fontana Dam</strong> the day before, or arrange a self-shuttle.</p>
+        <p>Arrive at the Davenport Gap / Big Creek area. Drop one car at <strong>Fontana Dam</strong>, then drive to the northeast trailhead at <strong>Davenport Gap</strong> (TN 32 / NC 284). Short afternoon hike of 0.9 miles to the shelter to get settled in for the trip.</p>
+        <span class="shelter-tag">Davenport Gap Shelter &middot; sleeps 12 &middot; spring nearby &middot; no privy</span>
       </div>
     </div>
 
@@ -740,19 +716,19 @@
     <div class="day-card">
       <div class="day-header">
         <div>
-          <span class="day-label">Day 1 &middot; May 18</span>
-          <h3 class="day-title">Davenport Gap to Cosby Knob Shelter</h3>
+          <span class="day-label">Day 1 &middot; Tuesday, May 19</span>
+          <h3 class="day-title">Davenport Gap Shelter to Cosby Knob Shelter</h3>
         </div>
-        <span class="day-miles">7&ndash;8 mi</span>
+        <span class="day-miles">7.1 mi</span>
       </div>
       <div class="elevation-bar">
-        <span class="elev-item"><span class="elev-up">&#9650; ~3,000'</span> gain</span>
-        <span class="elev-item"><span class="elev-down">&#9660; ~400'</span> loss</span>
-        <span class="elev-item elev-range">2,000' &rarr; 4,700'</span>
+        <span class="elev-item"><span class="elev-up">&#9650; ~2,700'</span> gain</span>
+        <span class="elev-item"><span class="elev-down">&#9660; ~600'</span> loss</span>
+        <span class="elev-item elev-range">2,600' &rarr; 4,700'</span>
       </div>
       <div class="day-body">
-        <p>Short, manageable first day with a solid climb. Settle into the rhythm and enjoy the initial forest. Steady climb through forest; lower elevations feel milder in May. Water usually available near shelter.</p>
-        <span class="shelter-tag">Cosby Knob Shelter &middot; sleeps 12</span>
+        <p>Solid first full day with a steady climb through forest. Passes near <strong>Mt. Cammerer</strong> side trail (optional 0.6-mile spur to the historic fire tower at ~5,000 ft with panoramic views). Lower elevations feel milder in May.</p>
+        <span class="shelter-tag">Cosby Knob Shelter &middot; sleeps 12 &middot; ~150 ft off AT</span>
       </div>
     </div>
 
@@ -760,81 +736,84 @@
     <div class="day-card">
       <div class="day-header">
         <div>
-          <span class="day-label">Day 2 &middot; May 19</span>
+          <span class="day-label">Day 2 &middot; Wednesday, May 20</span>
           <h3 class="day-title">Cosby Knob to Tricorner Knob Shelter</h3>
         </div>
-        <span class="day-miles">9&ndash;10 mi</span>
+        <span class="day-miles">7.7 mi</span>
       </div>
       <div class="elevation-bar">
         <span class="elev-item"><span class="elev-up">&#9650; ~2,350'</span> gain</span>
         <span class="elev-item"><span class="elev-down">&#9660; ~1,100'</span> loss</span>
-        <span class="elev-item elev-range">4,740' &rarr; 5,920'</span>
+        <span class="elev-item elev-range">4,700' &rarr; 5,920'</span>
       </div>
       <div class="day-body">
-        <p>High-elevation spruce-fir forest. Passes near <strong>Mt. Cammerer</strong> side trail (optional steep climb to fire tower). Some of the most remote and beautiful ridgeline walking in the northern Smokies. Potential for cooler temps and wind.</p>
-        <span class="shelter-tag">Tricorner Knob Shelter</span>
+        <p>High-elevation spruce-fir forest. Some of the most remote and beautiful ridgeline walking in the northern Smokies. Potential for cooler temps and wind at elevation.</p>
+        <span class="shelter-tag">Tricorner Knob Shelter &middot; ~100 yards off trail</span>
       </div>
     </div>
 
-    <!-- Day 3 -->
+    <!-- Day 3 - Rest day -->
+    <div class="day-card rest-day">
+      <div class="day-header">
+        <div>
+          <span class="day-label">Day 3 &middot; Thursday, May 21</span>
+          <h3 class="day-title">Tricorner Knob to Pecks Corner Shelter</h3>
+        </div>
+        <span class="day-miles">5.2 mi</span>
+      </div>
+      <div class="elevation-bar">
+        <span class="elev-item"><span class="elev-up">&#9650; ~700'</span> gain</span>
+        <span class="elev-item"><span class="elev-down">&#9660; ~1,300'</span> loss</span>
+        <span class="elev-item elev-range">5,920' &rarr; 5,280'</span>
+      </div>
+      <div class="day-body">
+        <span class="rest-badge">Short Rest Day</span>
+        <p>Intentionally short day to recharge before bigger miles ahead. Enjoy the remote ridgeline. Pecks Corner is a quieter shelter in a nice setting.</p>
+        <span class="shelter-tag">Pecks Corner Shelter &middot; 0.5 mi off AT on Hughes Ridge Trail</span>
+      </div>
+    </div>
+
+    <!-- Day 4 -->
     <div class="day-card">
       <div class="day-header">
         <div>
-          <span class="day-label">Day 3 &middot; May 20</span>
-          <h3 class="day-title">Tricorner Knob to Mt. Collins Shelter</h3>
+          <span class="day-label">Day 4 &middot; Friday, May 22</span>
+          <h3 class="day-title">Pecks Corner to Icewater Spring Shelter</h3>
         </div>
-        <span class="day-miles">10&ndash;11 mi</span>
+        <span class="day-miles">7.4 mi</span>
       </div>
       <div class="elevation-bar">
-        <span class="elev-item"><span class="elev-up">&#9650; ~2,200'</span> gain</span>
-        <span class="elev-item"><span class="elev-down">&#9660; ~2,150'</span> loss</span>
-        <span class="elev-item elev-range">5,920' &rarr; 5,900'</span>
+        <span class="elev-item"><span class="elev-up">&#9650; ~1,900'</span> gain</span>
+        <span class="elev-item"><span class="elev-down">&#9660; ~1,300'</span> loss</span>
+        <span class="elev-item elev-range">5,280' &rarr; 5,920'</span>
       </div>
       <div class="day-body">
-        <p>Passes near Pecks Corner and approaches the Newfound Gap zone. Expect more foot traffic near roads. This section stays mostly above 5,000&ndash;6,000 ft with lots of rolling terrain. Water sources generally reliable.</p>
-        <span class="shelter-tag">Mt. Collins Shelter &middot; popular (near Newfound Gap)</span>
+        <p>Approaches the <strong>Newfound Gap</strong> area. Expect more foot traffic near the road crossing. Crosses high ridges with occasional views. This section stays mostly above 5,000&ndash;6,000 ft.</p>
+        <div class="callout callout-warn" style="margin: 0.75rem 0;">
+          <p style="margin: 0;"><strong>Note:</strong> Icewater Spring is restricted to long-distance hikers from Mar 15 &ndash; Jun 15. A 72-mile traverse likely qualifies &mdash; confirm with the Backcountry Office when booking.</p>
+        </div>
+        <span class="shelter-tag">Icewater Spring Shelter</span>
       </div>
     </div>
 
-    <!-- Day 4 - Highlight -->
+    <!-- Day 5 - Highlight -->
     <div class="day-card highlight-day">
       <div class="day-header">
         <div>
-          <span class="day-label">Day 4 &middot; May 21</span>
-          <h3 class="day-title">Mt. Collins to Derrick Knob Shelter</h3>
+          <span class="day-label">Day 5 &middot; Saturday, May 23</span>
+          <h3 class="day-title">Icewater Spring to Double Spring Gap Shelter</h3>
         </div>
-        <span class="day-miles">11&ndash;12 mi</span>
+        <span class="day-miles">13.8 mi</span>
       </div>
       <div class="elevation-bar">
-        <span class="elev-item"><span class="elev-up">&#9650; ~2,750'</span> gain</span>
-        <span class="elev-item"><span class="elev-down">&#9660; ~3,750'</span> loss</span>
-        <span class="elev-item elev-range">5,870' &rarr; 4,800'</span>
+        <span class="elev-item"><span class="elev-up">&#9650; ~3,250'</span> gain</span>
+        <span class="elev-item"><span class="elev-down">&#9660; ~3,650'</span> loss</span>
+        <span class="elev-item elev-range">5,920' &rarr; 5,505'</span>
       </div>
       <div class="day-body">
-        <span class="peak-badge">&#9968; Highest Point on the AT</span>
-        <p>Side trail to <strong>Kuwohi (Clingmans Dome)</strong> at <strong>6,643 ft</strong> &mdash; the highest point on the entire Appalachian Trail (~0.5 mile round-trip for the tower and panoramic views). Significant rollercoaster with steep descents after the high point. Expect possible wind and rain at elevation. One of the tougher days.</p>
-        <span class="shelter-tag">Derrick Knob Shelter</span>
-      </div>
-    </div>
-
-    <!-- Day 5 -->
-    <div class="day-card">
-      <div class="day-header">
-        <div>
-          <span class="day-label">Day 5 &middot; May 22</span>
-          <h3 class="day-title">Derrick Knob to Spence Field Shelter</h3>
-        </div>
-        <span class="day-miles">10&ndash;11 mi</span>
-      </div>
-      <div class="elevation-bar">
-        <span class="elev-item"><span class="elev-up">&#9650; ~3,000'</span> gain</span>
-        <span class="elev-item"><span class="elev-down">&#9660; ~2,650'</span> loss</span>
-        <span class="elev-item elev-range">4,770' &rarr; 4,900'</span>
-      </div>
-      <div class="day-body">
-        <p>Beautiful open balds and meadows &mdash; great for May wildflowers. <strong>Thunderhead Mountain</strong> and <strong>Rocky Top</strong> nearby with iconic views. Grassy areas make for nice breaks. Shelters here are popular; have backup options when booking.</p>
-        <span class="shelter-tag">Spence Field Shelter</span>
-        <span class="shelter-tag" style="margin-left: 0.5rem;">or Russell Field Shelter</span>
+        <span class="peak-badge">&#9968; Highest Point on the AT &middot; Biggest Day</span>
+        <p>The big day. Passes Mt. Collins Shelter (0.5 mi off trail; no need to detour) and includes the side trail to <strong>Kuwohi (Clingmans Dome)</strong> at <strong>6,643 ft</strong> &mdash; the highest point on the entire Appalachian Trail (~0.5 mile round-trip for the tower and panoramic views). Significant rollercoaster with steep climbs and descents throughout.</p>
+        <span class="shelter-tag">Double Spring Gap Shelter</span>
       </div>
     </div>
 
@@ -842,19 +821,19 @@
     <div class="day-card">
       <div class="day-header">
         <div>
-          <span class="day-label">Day 6 &middot; May 23</span>
-          <h3 class="day-title">Spence Field to Mollies Ridge Shelter</h3>
+          <span class="day-label">Day 6 &middot; Sunday, May 24</span>
+          <h3 class="day-title">Double Spring Gap to Derrick Knob Shelter</h3>
         </div>
-        <span class="day-miles">9&ndash;10 mi</span>
+        <span class="day-miles">7.2 mi</span>
       </div>
       <div class="elevation-bar">
-        <span class="elev-item"><span class="elev-up">&#9650; ~2,200'</span> gain</span>
-        <span class="elev-item"><span class="elev-down">&#9660; ~2,500'</span> loss</span>
-        <span class="elev-item elev-range">4,800' &rarr; 4,570'</span>
+        <span class="elev-item"><span class="elev-up">&#9650; ~900'</span> gain</span>
+        <span class="elev-item"><span class="elev-down">&#9660; ~1,500'</span> loss</span>
+        <span class="elev-item elev-range">5,505' &rarr; 4,880'</span>
       </div>
       <div class="day-body">
-        <p>Transition toward the western Smokies. Some easier stretches mixed with steep rolls. Descending trend begins as you head toward lower elevations near Fontana. Nice transition day.</p>
-        <span class="shelter-tag">Mollies Ridge Shelter</span>
+        <p>Recovery day after the big Day 5 push. Passes Silers Bald Shelter (1.7 mi in) and continues with a descending trend. Easier terrain with some rolling sections.</p>
+        <span class="shelter-tag">Derrick Knob Shelter</span>
       </div>
     </div>
 
@@ -862,19 +841,19 @@
     <div class="day-card">
       <div class="day-header">
         <div>
-          <span class="day-label">Day 7 &middot; May 24</span>
-          <h3 class="day-title">Mollies Ridge to Birch Spring Gap</h3>
+          <span class="day-label">Day 7 &middot; Monday, May 25</span>
+          <h3 class="day-title">Derrick Knob to Mollies Ridge Shelter</h3>
         </div>
-        <span class="day-miles">~10 mi</span>
+        <span class="day-miles">11.7 mi</span>
       </div>
       <div class="elevation-bar">
-        <span class="elev-item"><span class="elev-up">&#9650; ~2,000'</span> gain</span>
-        <span class="elev-item"><span class="elev-down">&#9660; ~2,800'</span> loss</span>
-        <span class="elev-item elev-range">4,570' &rarr; 3,700'</span>
+        <span class="elev-item"><span class="elev-up">&#9650; ~3,000'</span> gain</span>
+        <span class="elev-item"><span class="elev-down">&#9660; ~3,300'</span> loss</span>
+        <span class="elev-item elev-range">4,880' &rarr; 4,570'</span>
       </div>
       <div class="day-body">
-        <p>More descending overall. Passes Doe Knob and other gaps. Water at Birch Spring Gap. Final big push through forested sections before the dam area.</p>
-        <span class="shelter-tag">Birch Spring Gap campsite</span>
+        <p>Through the beautiful bald and meadow country. <strong>Thunderhead Mountain</strong> and <strong>Rocky Top</strong> nearby with iconic views. Great for May wildflowers. Passes Spence Field Shelter (6.3 mi) and Russell Field Shelter (9.2 mi) before reaching Mollies Ridge.</p>
+        <span class="shelter-tag">Mollies Ridge Shelter</span>
       </div>
     </div>
 
@@ -882,18 +861,18 @@
     <div class="day-card">
       <div class="day-header">
         <div>
-          <span class="day-label">Day 8 &middot; May 25&ndash;26</span>
-          <h3 class="day-title">Birch Spring Gap to Fontana Dam</h3>
+          <span class="day-label">Day 8 &middot; Tuesday, May 26</span>
+          <h3 class="day-title">Mollies Ridge to Fontana Dam</h3>
         </div>
-        <span class="day-miles">8&ndash;10 mi</span>
+        <span class="day-miles">10.6 mi</span>
       </div>
       <div class="elevation-bar">
-        <span class="elev-item"><span class="elev-up">&#9650; ~1,250'</span> gain</span>
-        <span class="elev-item"><span class="elev-down">&#9660; ~3,000'</span> loss</span>
-        <span class="elev-item elev-range">3,680' &rarr; 1,800'</span>
+        <span class="elev-item"><span class="elev-up">&#9650; ~700'</span> gain</span>
+        <span class="elev-item"><span class="elev-down">&#9660; ~3,500'</span> loss</span>
+        <span class="elev-item elev-range">4,570' &rarr; 1,750'</span>
       </div>
       <div class="day-body">
-        <p>Steep final drop to the dam. The "Fontana Hilton" is just outside the park boundary. Finish early enough to retrieve your car. Celebrate the traverse!</p>
+        <p>Mostly downhill with a few smaller rolls. Passes Doe Knob and <strong>Shuckstack Mountain</strong> (fire tower with views &mdash; short detour). Final steep descent to the dam. The "Fontana Hilton" is just outside the park. Experienced hikers report 4&ndash;6 hours southbound &mdash; start by 8 AM to arrive early afternoon and pick up the car.</p>
       </div>
     </div>
   </section>
@@ -904,68 +883,107 @@
 
     <p>All overnight stays require advance reservations via a <strong>General Backcountry Permit</strong>. You must reserve a specific shelter for each night &mdash; no first-come, first-served for general permit holders.</p>
 
+    <p>Shelters highlighted below are stops on this itinerary:</p>
+
     <table class="shelter-table">
       <thead>
         <tr>
           <th>Shelter</th>
-          <th>Miles In</th>
+          <th>Cumulative Mi</th>
+          <th>Segment Mi</th>
           <th>Elevation</th>
           <th>Notes</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
+        <tr class="on-route">
+          <td><strong>Davenport Gap</strong></td>
+          <td>0.9</td>
+          <td>0.9</td>
+          <td>2,600'</td>
+          <td>Night 0 &middot; No privy</td>
+        </tr>
+        <tr class="on-route">
           <td><strong>Cosby Knob</strong></td>
-          <td>~7&ndash;8</td>
-          <td>~4,700'</td>
-          <td>Quieter, good first night</td>
+          <td>8.0</td>
+          <td>7.1</td>
+          <td>4,700'</td>
+          <td>Night 1 &middot; 150 ft off AT</td>
         </tr>
-        <tr>
+        <tr class="on-route">
           <td><strong>Tricorner Knob</strong></td>
-          <td>~16&ndash;18</td>
-          <td>~5,900'</td>
-          <td>High-elevation, remote feel</td>
+          <td>15.7</td>
+          <td>7.7</td>
+          <td>5,920'</td>
+          <td>Night 2 &middot; Remote ridgeline</td>
+        </tr>
+        <tr class="on-route">
+          <td><strong>Pecks Corner</strong></td>
+          <td>20.9</td>
+          <td>5.2</td>
+          <td>5,280'</td>
+          <td>Night 3 &middot; 0.5 mi off AT</td>
+        </tr>
+        <tr class="on-route">
+          <td><strong>Icewater Spring</strong></td>
+          <td>28.3</td>
+          <td>7.4</td>
+          <td>5,920'</td>
+          <td>Night 4 &middot; Peak season restricted</td>
         </tr>
         <tr>
-          <td><strong>Mt. Collins</strong></td>
-          <td>~26&ndash;28</td>
-          <td>~5,900'</td>
-          <td>Popular (near Newfound Gap)</td>
+          <td>Mt. Collins</td>
+          <td>35.8</td>
+          <td>7.5</td>
+          <td>5,870'</td>
+          <td>0.5 mi off AT (pass through on Day 5)</td>
+        </tr>
+        <tr class="on-route">
+          <td><strong>Double Spring Gap</strong></td>
+          <td>42.1</td>
+          <td>6.3</td>
+          <td>5,505'</td>
+          <td>Night 5</td>
         </tr>
         <tr>
+          <td>Silers Bald</td>
+          <td>43.8</td>
+          <td>1.7</td>
+          <td>5,460'</td>
+          <td>Pass through on Day 6</td>
+        </tr>
+        <tr class="on-route">
           <td><strong>Derrick Knob</strong></td>
-          <td>~37&ndash;39</td>
-          <td>~4,800'</td>
-          <td>Near Clingmans Dome; high demand</td>
+          <td>49.3</td>
+          <td>5.5</td>
+          <td>4,880'</td>
+          <td>Night 6</td>
         </tr>
         <tr>
-          <td><strong>Spence Field</strong></td>
-          <td>~47&ndash;50</td>
-          <td>~4,900'</td>
-          <td>Beautiful balds; very popular in spring</td>
+          <td>Spence Field</td>
+          <td>55.6</td>
+          <td>6.3</td>
+          <td>4,915'</td>
+          <td>0.2 mi off AT (pass on Day 7)</td>
         </tr>
         <tr>
-          <td><strong>Russell Field</strong></td>
-          <td>~47&ndash;50</td>
-          <td>~4,600'</td>
-          <td>Close alternate to Spence Field</td>
+          <td>Russell Field</td>
+          <td>58.5</td>
+          <td>2.9</td>
+          <td>4,360'</td>
+          <td>Pass through on Day 7</td>
         </tr>
-        <tr>
+        <tr class="on-route">
           <td><strong>Mollies Ridge</strong></td>
-          <td>~57&ndash;59</td>
-          <td>~4,570'</td>
-          <td>Western side transition</td>
-        </tr>
-        <tr>
-          <td><strong>Birch Spring Gap</strong></td>
-          <td>Near end</td>
-          <td>~3,700'</td>
-          <td>Final night option</td>
+          <td>61.0</td>
+          <td>2.5</td>
+          <td>4,570'</td>
+          <td>Night 7</td>
         </tr>
       </tbody>
     </table>
 
-    <p><strong>Alternate shelters:</strong> Double Spring Gap, Siler's Bald, Pecks Corner</p>
+    <p><strong>Note:</strong> Birch Spring Gap Shelter has been demolished. It is now tent-only Backcountry Campsite #113. This itinerary skips it &mdash; Mollies Ridge to Fontana Dam (10.6 mi, mostly downhill) is a comfortable final day.</p>
 
     <div class="info-grid">
       <div class="info-card">
@@ -973,7 +991,7 @@
         <ul>
           <li>Bear cables for food storage (mandatory)</li>
           <li>Nearby water sources (treat/filter all water)</li>
-          <li>Composting toilet privies</li>
+          <li>Composting toilet privies (most shelters)</li>
           <li>Fire rings (downed wood only)</li>
         </ul>
       </div>
@@ -1046,9 +1064,9 @@
       <div class="info-card">
         <h3>Pacing</h3>
         <ul>
-          <li>Days 4 and 5 are the most strenuous</li>
-          <li>High elevation + big vertical swings</li>
-          <li>Start early on bigger mileage days</li>
+          <li>Day 5 (13.8 mi + Clingmans Dome) is the biggest</li>
+          <li>Day 7 (11.7 mi through the balds) is second longest</li>
+          <li>Day 3 is an intentional rest before bigger miles</li>
           <li>~250&ndash;280 ft vertical per mile average</li>
         </ul>
       </div>
@@ -1102,7 +1120,7 @@
 </div>
 
 <footer>
-  <p>Smoky Mountain AT Traverse &middot; May 2026 &middot; ~72 miles Davenport Gap to Fontana Dam</p>
+  <p>Smoky Mountain AT Traverse &middot; May 18&ndash;26, 2026 &middot; ~71.6 miles Davenport Gap to Fontana Dam</p>
 </footer>
 
 </body>
