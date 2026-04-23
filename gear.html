@@ -198,6 +198,101 @@
     a { color: var(--color-link); }
     a:hover { text-decoration: underline; }
 
+    /* Daily forecast strip (non-print) */
+    .daily-temps {
+      margin: 1rem 0 1.75rem;
+    }
+
+    .daily-temps-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .daily-temps-header h3 {
+      text-transform: none;
+      letter-spacing: 0;
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
+    .daily-temps-note {
+      font-size: 0.78rem;
+      color: var(--color-text-muted);
+      font-style: italic;
+    }
+
+    .daily-strip {
+      display: grid;
+      grid-template-columns: repeat(9, minmax(0, 1fr));
+      gap: 0.35rem;
+    }
+
+    .day-temp {
+      background: var(--color-card);
+      border: 1px solid var(--color-border);
+      border-radius: 8px;
+      padding: 0.55rem 0.4rem;
+      text-align: center;
+      min-width: 0;
+    }
+
+    .day-temp.highlight {
+      border-color: var(--color-peak);
+      background: linear-gradient(180deg, var(--color-card) 0%, rgba(192,113,58,0.08) 100%);
+    }
+
+    .day-temp .dt-day {
+      font-family: var(--font-heading);
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--color-text-muted);
+    }
+
+    .day-temp .dt-date {
+      font-family: var(--font-heading);
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--color-heading);
+      margin: 0.1rem 0 0.35rem;
+    }
+
+    .day-temp .dt-high {
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--color-peak);
+      line-height: 1;
+    }
+
+    .day-temp .dt-low {
+      font-family: var(--font-heading);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--color-link);
+      line-height: 1.2;
+    }
+
+    .day-temp .dt-elev {
+      font-size: 0.68rem;
+      color: var(--color-text-muted);
+      margin-top: 0.25rem;
+      line-height: 1.2;
+    }
+
+    @media (max-width: 820px) {
+      .daily-strip { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 500px) {
+      .daily-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    }
+
     /* Weather brief */
     .weather-grid {
       display: grid;
@@ -552,6 +647,9 @@
       .sample-section { display: none !important; }
       .toc a[href="#sample-menu"] { display: none !important; }
 
+      /* Daily forecast strip is reference only — hide on print */
+      .daily-temps { display: none !important; }
+
       footer { font-size: 8pt; padding: 0.5rem 0; }
 
       a, a:visited { color: #000; text-decoration: none; }
@@ -591,6 +689,69 @@
       Plan for temperatures about <strong>18&ndash;20&deg;F cooler</strong> than Gatlinburg, high humidity, and the likelihood of rain
       on 1 day in 3.
     </p>
+
+    <div class="daily-temps">
+      <div class="daily-temps-header">
+        <h3>Projected daily highs &amp; lows at each shelter elevation</h3>
+        <span class="daily-temps-note">30-year May averages, interpolated by elevation &middot; not a forecast</span>
+      </div>
+      <div class="daily-strip">
+        <div class="day-temp">
+          <div class="dt-day">Day 0</div>
+          <div class="dt-date">Mon 5/18</div>
+          <div><span class="dt-high">71&deg;</span> / <span class="dt-low">49&deg;</span></div>
+          <div class="dt-elev">Davenport Gap<br>2,600 ft</div>
+        </div>
+        <div class="day-temp">
+          <div class="dt-day">Day 1</div>
+          <div class="dt-date">Tue 5/19</div>
+          <div><span class="dt-high">62&deg;</span> / <span class="dt-low">45&deg;</span></div>
+          <div class="dt-elev">Cosby Knob<br>4,700 ft</div>
+        </div>
+        <div class="day-temp highlight">
+          <div class="dt-day">Day 2</div>
+          <div class="dt-date">Wed 5/20</div>
+          <div><span class="dt-high">57&deg;</span> / <span class="dt-low">43&deg;</span></div>
+          <div class="dt-elev">Tricorner Knob<br>5,920 ft</div>
+        </div>
+        <div class="day-temp">
+          <div class="dt-day">Day 3</div>
+          <div class="dt-date">Thu 5/21</div>
+          <div><span class="dt-high">60&deg;</span> / <span class="dt-low">44&deg;</span></div>
+          <div class="dt-elev">Pecks Corner<br>5,280 ft</div>
+        </div>
+        <div class="day-temp highlight">
+          <div class="dt-day">Day 4</div>
+          <div class="dt-date">Fri 5/22</div>
+          <div><span class="dt-high">57&deg;</span> / <span class="dt-low">43&deg;</span></div>
+          <div class="dt-elev">Icewater Spr.<br>5,920 ft</div>
+        </div>
+        <div class="day-temp">
+          <div class="dt-day">Day 5</div>
+          <div class="dt-date">Sat 5/23</div>
+          <div><span class="dt-high">59&deg;</span> / <span class="dt-low">44&deg;</span></div>
+          <div class="dt-elev">Double Spring<br>5,505 ft</div>
+        </div>
+        <div class="day-temp">
+          <div class="dt-day">Day 6</div>
+          <div class="dt-date">Sun 5/24</div>
+          <div><span class="dt-high">61&deg;</span> / <span class="dt-low">45&deg;</span></div>
+          <div class="dt-elev">Derrick Knob<br>4,880 ft</div>
+        </div>
+        <div class="day-temp">
+          <div class="dt-day">Day 7</div>
+          <div class="dt-date">Mon 5/25</div>
+          <div><span class="dt-high">63&deg;</span> / <span class="dt-low">45&deg;</span></div>
+          <div class="dt-elev">Mollies Ridge<br>4,570 ft</div>
+        </div>
+        <div class="day-temp">
+          <div class="dt-day">Day 8</div>
+          <div class="dt-date">Tue 5/26</div>
+          <div><span class="dt-high">75&deg;</span> / <span class="dt-low">50&deg;</span></div>
+          <div class="dt-elev">Fontana Dam<br>1,750 ft</div>
+        </div>
+      </div>
+    </div>
 
     <div class="weather-grid">
       <div class="weather-card">
