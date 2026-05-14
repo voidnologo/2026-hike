@@ -26,7 +26,7 @@ LOCATIONS = [
     {"day": 4, "name": "Icewater Spring",    "elevation_ft": 5920, "lat": 35.6336, "lon": -83.3725, "trip_date": "2026-05-22"},
     {"day": 5, "name": "Double Spring",      "elevation_ft": 5505, "lat": 35.5589, "lon": -83.5083, "trip_date": "2026-05-23"},
     {"day": 6, "name": "Derrick Knob",       "elevation_ft": 4880, "lat": 35.5256, "lon": -83.6203, "trip_date": "2026-05-24"},
-    {"day": 7, "name": "Mollies Ridge",      "elevation_ft": 4570, "lat": 35.5050, "lon": -83.7308, "trip_date": "2026-05-25"},
+    {"day": 7, "name": "Russell Field",      "elevation_ft": 4360, "lat": 35.5443, "lon": -83.7042, "trip_date": "2026-05-25"},
     {"day": 8, "name": "Fontana Dam",        "elevation_ft": 1750, "lat": 35.4520, "lon": -83.8081, "trip_date": "2026-05-26"},
 ]
 

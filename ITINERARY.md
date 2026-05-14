@@ -16,8 +16,8 @@
 | 4 | Fri, May 22 | Pecks Corner to Icewater Spring Shelter | 7.4 | ~5,920 ft |
 | 5 | Sat, May 23 | Icewater Spring to Double Spring Gap Shelter | 13.8 | ~5,505 ft |
 | 6 | Sun, May 24 | Double Spring Gap to Derrick Knob Shelter | 7.2 | ~4,880 ft |
-| 7 | Mon, May 25 | Derrick Knob to Mollies Ridge Shelter | 11.7 | ~4,570 ft |
-| 8 | Tue, May 26 | Mollies Ridge to Fontana Dam | 10.6 | ~1,750 ft |
+| 7 | Mon, May 25 | Derrick Knob to Russell Field Shelter | 9.2 | ~4,360 ft |
+| 8 | Tue, May 26 | Russell Field to Fontana Dam | 13.1 | ~1,750 ft |
 
 ---
 
@@ -39,10 +39,12 @@ Full distance reference for the southbound route:
 | Derrick Knob Shelter | 49.3 | 5.5 | ~4,880 ft |
 | Spence Field Shelter | 55.6 | 6.3 | ~4,915 ft |
 | Russell Field Shelter | 58.5 | 2.9 | ~4,360 ft |
-| Mollies Ridge Shelter | 61.0 | 2.5 | ~4,570 ft |
+| Mollies Ridge Shelter | 61.0 | 2.5 | ~4,570 ft (**closed -- bear activity**) |
 | Fontana Dam | 71.6 | 10.6 | ~1,750 ft |
 
 **Note:** Mt. Collins Shelter is 0.5 mi off the AT (1.0 mi round trip). Spence Field Shelter is 0.2 mi off the AT (0.4 mi round trip). Pecks Corner Shelter is 0.5 mi off the AT (1.0 mi round trip). Birch Spring Gap Shelter has been demolished; it is now Backcountry Campsite #113 (tent-only).
+
+**Mollies Ridge closure:** Mollies Ridge Shelter is currently closed due to bear activity. The original plan stayed there on Night 7; this itinerary has been adjusted to camp at **Russell Field** (2.5 mi earlier on the AT) instead, with a longer Day 8 finish to Fontana.
 
 ---
 
@@ -144,29 +146,31 @@ Recovery day after the big Day 5 push. Passes Silers Bald Shelter (1.7 mi in) an
 
 ---
 
-### Day 7: Monday, May 25 -- Derrick Knob to Mollies Ridge Shelter
+### Day 7: Monday, May 25 -- Derrick Knob to Russell Field Shelter
 
-**11.7 miles** | Start: ~4,880 ft | End: ~4,570 ft
+**9.2 miles** | Start: ~4,880 ft | End: ~4,360 ft
 
-- **Elevation gain:** ~2,800--3,200 ft
-- **Elevation loss:** ~3,000--3,400 ft
-- **Net change:** Slight net loss
+- **Elevation gain:** ~2,200--2,600 ft
+- **Elevation loss:** ~2,700--3,100 ft
+- **Net change:** Net descent
 
-Passes through the beautiful bald and meadow country. **Thunderhead Mountain** and **Rocky Top** nearby with iconic views. Great for May wildflowers. Passes Spence Field Shelter (6.3 mi) and Russell Field Shelter (9.2 mi) before reaching Mollies Ridge.
+Passes through the beautiful bald and meadow country. **Thunderhead Mountain** and **Rocky Top** nearby with iconic views. Great for May wildflowers. Passes Spence Field Shelter (6.3 mi) before reaching Russell Field.
 
-**Shelter:** Mollies Ridge Shelter
+**Route change:** Originally planned to overnight at Mollies Ridge, but that shelter is currently closed due to bear activity. Camp shifted back 2.5 mi to Russell Field, which makes Day 7 shorter and Day 8 longer.
+
+**Shelter:** Russell Field Shelter
 
 ---
 
-### Day 8: Tuesday, May 26 -- Mollies Ridge to Fontana Dam
+### Day 8: Tuesday, May 26 -- Russell Field to Fontana Dam
 
-**10.6 miles** | Start: ~4,570 ft | End: ~1,750 ft
+**13.1 miles** | Start: ~4,360 ft | End: ~1,750 ft
 
-- **Elevation gain:** ~600--800 ft
-- **Elevation loss:** ~3,400--3,600 ft
+- **Elevation gain:** ~1,200--1,400 ft
+- **Elevation loss:** ~3,800--4,000 ft
 - **Net change:** Major net descent
 
-Mostly downhill with a few smaller rolls. Passes Doe Knob and Shuckstack Mountain (fire tower with views, short detour). Final steep descent to Fontana Dam ("Fontana Hilton" just outside the park). Experienced hikers report 4--6 hours southbound. Start by 8 AM to arrive early afternoon and retrieve your car.
+Climbs over McCampbell Knob early and passes the closed **Mollies Ridge Shelter** (2.5 mi -- do not stop) before the long descent. Passes Doe Knob and Shuckstack Mountain (fire tower with views, short detour). Final steep descent to Fontana Dam ("Fontana Hilton" just outside the park). Plan for 6--8 hours southbound after the Mollies Ridge closure lengthened the day. Start at first light to arrive early afternoon and retrieve your car.
 
 ---
 
@@ -181,6 +185,7 @@ Mostly downhill with a few smaller rolls. Passes Doe Knob and Shuckstack Mountai
 | Highest point | Kuwohi / Clingmans Dome (6,643 ft) -- Day 5 |
 | Lowest point | Fontana Dam (~1,750 ft) -- Day 8 |
 | Average daily miles | ~8.9 (range: 5.2 to 13.8) |
+| Longest days | Day 5 (13.8 mi w/ Kuwohi), Day 8 (13.1 mi to Fontana) |
 | Average vertical per mile | ~250--280 ft (the "Smoky Mountain Roll") |
 
 ---
@@ -229,6 +234,7 @@ Most shelters have:
 - Fire rings (downed wood only)
 
 **Notes on specific shelters:**
+- **Mollies Ridge** is currently **closed** due to bear activity (this route uses Russell Field for Night 7 instead)
 - **Pecks Corner** and **Mt. Collins** are each 0.5 mi off the AT (1.0 mi round trip)
 - **Spence Field** is 0.2 mi off the AT (0.4 mi round trip)
 - **Birch Spring Gap** shelter has been demolished; it is now tent-only Campsite #113
@@ -238,7 +244,7 @@ Most shelters have:
 
 ## Tips for the Group
 
-- **Pacing:** Day 5 (13.8 mi with Clingmans Dome) and Day 7 (11.7 mi through the balds) are the most demanding. Day 3 is intentionally short to recharge before the bigger second half.
+- **Pacing:** Day 5 (13.8 mi with Clingmans Dome) and Day 8 (13.1 mi to Fontana, lengthened by the Mollies Ridge closure) are the most demanding. Day 3 is intentionally short to recharge before the bigger second half.
 - **May weather:** Expect mud, possible lingering snow/ice above 5,000 ft early in the trip, and afternoon thunderstorms. Start early on bigger days.
 - **Water:** Most shelters have springs nearby, but always treat/filter. May is generally wetter, but dry stretches can occur.
 - **Permits:** Print your paper permit with all shelter reservations listed. No changes after booking without calling the office.
